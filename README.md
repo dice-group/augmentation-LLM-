@@ -4,17 +4,18 @@ This repo contains code for augmentation of data for RE task using LLMs and also
 ### Augument using Llama
 
 We have provided a complete code in notebook for easy to run and step by step understanding. By default we kept Llama-2-7B version which is easy to run. The user can easily change it to other version in the model name cell.
-[a relative link](promptllama.ipynb)
+
+[Llama Based Augmentation](promptllama.ipynb)
 
 ### Augument using Falcon
 Similar to Llama the code for augmenting data using Falcon is in the following notebook.
 
-[a relative link](falconprompt.ipynb)
+[Falcon Based Augmentation](falconprompt.ipynb)
 
 ### Augument using Rule Based approach
 The following notebook contain code for genearting rule based augmentation following the same approach as we followed for the two language models.
 
-[a relative link](ruelbasedDA.ipynb)
+[Rules based Augmentation](ruelbasedDA.ipynb)
 
 
 ### Prerequisites
