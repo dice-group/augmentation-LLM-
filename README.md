@@ -1,29 +1,36 @@
-# Data augmentation using LLMs for Relation Extraction (RE)
-This repo contains code for augmentation of data for RE task using LLMs and also rule based approach. Also the augumented data and the orignal dataset are available.
+# Data Augmentation using Large Language Models (LLMs) for Relation Extraction (RE)
 
-### Augument using Llama
+This repository contains code for augmenting data for the Relation Extraction (RE) task using Large Language Models (LLMs) and a rule-based approach. Both the augmented data and the original dataset are available.
 
-We have provided a complete code in notebook for easy to run and step by step understanding. By default we kept Llama-2-7B version which is easy to run. The user can easily change it to other version in the model name cell.
+### Augmentation using Llama
 
-[Llama Based Augmentation](promptllama.ipynb)
+We provide complete code in the notebook for easy execution and step-by-step understanding. By default, we've set Llama-2-7B version, which is easy to run. Users can easily change it to another version in the model name cell.
 
-### Augument using Falcon
-Similar to Llama the code for augmenting data using Falcon is in the following notebook.
+[Llama-Based Augmentation](promptllama.ipynb)
 
-[Falcon Based Augmentation](falconprompt.ipynb)
+### Augmentation using Falcon
 
-### Augument using Rule Based approach
-The following notebook contain code for genearting rule based augmentation following the same approach as we followed for the two language models.
+Similar to Llama, the code for augmenting data using Falcon is in the following notebook.
 
-[Rules based Augmentation](ruelbasedDA.ipynb)
+[Falcon-Based Augmentation](falconprompt.ipynb)
 
+### Rule-Based Approach and Discussion Section
+
+The following notebook contains code for generating rule-based augmentation following the same approach as we followed for the two language models.
+
+[Rule-Based Augmentation](ruelbasedDA.ipynb)
 
 ### Prerequisites
-The required packages for running the script will be installed by running the following command:
-```
- pip install -r requirements.txt
-```
 
+Install the required packages for running the script using the following command:
+
+```bash
+pip install -r requirements.txt
+```
+### Selected Model 
+The choosen model for evaluation and it's relvant code for training and evaluation is available in 
+
+[Model](Utility.py)
 
 ### Datasets used
 
