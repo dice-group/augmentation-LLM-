@@ -39,6 +39,18 @@ The following notebook contains code for generating rule-based augmentation foll
 
 [Rule-Based Augmentation](ruelbasedDA.ipynb)
 
+### Hyperparameter used in our experiments:
+| Parameter               | Value              |
+|-------------------------|--------------------|
+| Learning Rate           | $2e-5$             |
+| Batch Size              | 32                 |
+| Number of Epochs        | 20                 |
+| Loss Function           | Cross Entropy Loss|
+| Optimization algorithm  | AdamW              |
+| Dropout                 | 0.1                |
+| Max Sequence length     | 128                |
+| Tokenizer               | bert-base-uncased  |
+
 
 ### Selected Model 
 The choosen model for evaluation and it's relvant code for training and evaluation is available in 
