@@ -1,7 +1,7 @@
 
 # Data Augmentation using Large Language Models (LLMs) for Relation Extraction (RE)
 
-This repository contains code for augmenting data for the Relation Extraction (RE) task using Large Language Models (LLMs) and a rule-based approach. Both the augmented data and the original dataset are available.
+This repository contains code for our paper titel: 'Enhancing Relation Extraction Through Augmented Data: Large Language Models Unleashed' The paper is accepted at [NLDB2024](https://nldb2024.di.unito.it/). Both the augmented data and the original dataset are available.
 All the code is self-explanatory, and we have provided it in notebook format for easy understanding. Most of the cells contain instructions.
 
 ### Prerequisites
@@ -65,3 +65,14 @@ The choosen model for evaluation and it's relvant code for training and evaluati
 |NYT-FB|[Download](http://iesl.cs.umass.edu/riedel/ecml/)|
 
 <hr>
+
+### Authors
+
+  * [Manzoor Ali](https://dice-research.org/ManzoorAli) (DICE, Paderborn University) 
+  * [Muhammad Sohail Nisar](https://dice-research.org/MuhammadSohailNisar) (DICE, Paderborn University)
+  * [Muhammad Saleem](https://sites.google.com/site/saleemsweb/) (DICE, Paderborn University) 
+  * [Diego Moussallem](https://dice-research.org/DiegoMoussallem) (DICE, Paderborn University)
+  * [Axel-Cyrille Ngonga Ngomo](https://dice-research.org/AxelCyrilleNgongaNgomo) (DICE, Paderborn University)
+
+## License
+The source code of this repo is published under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
